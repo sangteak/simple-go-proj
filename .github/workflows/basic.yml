@@ -25,7 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-  # the job name is process  
+  # the job name is process
+  # run a on line script and a multi-line script
   process:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
